@@ -11,10 +11,7 @@ print("\nИсходная матрица:")
 for row in matrix:
     print(" ".join(f"{x:.2f}" for x in row))
 
-print("\nМатрица по столбцам:")
-for j in range(m):
-    for i in range(n):
-        print(f"{matrix[i][j]:.2f}")
+
 
 
 
